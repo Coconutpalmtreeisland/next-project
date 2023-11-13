@@ -34,3 +34,17 @@ Next.js는 React 기반이므로 React의 컴포넌트 기반 구조와 생태�
 7. √ Would you like to use App Router? (recommended) ... No / `Yes`
 8. √ Would you like to customize the default import alias (@/*)? ... No / `Yes`
 9. √ What import alias would you like configured? ... `@`/*
+
+## 플러그인 설치
+gsap 설치 : `npm install gsap`
+sass 설치 : `npm install sass`
+lenis 설치 : `npm install @studio-freight/lenis`
+
+## 파일 정리
+- public: favicon.svg 생성 나머지 삭제
+- src: assets, components, constants, utils 파일 생성
+- app: layout.js, page,js, page.module.css 제외하고 삭제
+- page.js: 
+
+## 페이지 생성
+- 폴더 안에 jsx파일 생성 예: about 폴더 - about.jsx 파일 생성
